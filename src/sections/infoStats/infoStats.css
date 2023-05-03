@@ -1,0 +1,15 @@
+.counter-row{
+    display: flex;
+    justify-content: space-around;
+}
+.counter-column{
+    text-align: center;
+}
+.stat-icons{
+    font-size: 3rem;
+}
+@media (max-width:600px){
+    .stat-icons{
+        font-size: 1.8rem!important;
+    }
+}

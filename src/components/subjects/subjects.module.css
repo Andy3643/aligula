@@ -1,0 +1,20 @@
+.learning_subjects{
+    margin-top: 6vh;
+}
+.subjects_catalogue{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    margin-top: 5vh;
+}
+.similarH4{
+    font-size: 23px;
+}
+@media (max-width: 767px) {
+    .subjects_catalogue {
+              grid-template-columns: 1fr;
+    }
+    .similarH4{
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,82 @@
+/* div1 */
+  .curriculum-desc_one {
+    margin-top: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10rem;
+    padding: 1rem;
+  }
+  .curriculum-desc_img{
+    width: 20vw;
+  }
+/* div2 */
+  .curriculum-desc_two {
+    margin-top: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10rem;
+    padding: 1rem;
+  }
+  .curriculum-desc_two>img{
+    width: 20vw;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .learn-more-btn {
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color:var(--color-primary);
+    color: white;
+    transition: all 0.3s ease;
+  }
+  .learn-more-btn:hover {
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+  }
+  #cbc-icon{
+    height: 40vh;
+    width: auto;
+  }
+  
+  @media (max-width: 600px) {
+  /* div2 */
+  .curriculum-desc_two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 1rem;
+  }
+  .curriculum-desc_img{
+    width: 90vw;
+  }
+    /* div1 */
+    .curriculum-desc_one {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2rem;
+      padding: 1rem;
+    }
+    .curriculum-desc_one>img{
+      width: 90vw;
+    }
+}

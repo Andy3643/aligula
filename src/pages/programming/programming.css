@@ -1,0 +1,53 @@
+.programming_tools {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1%;
+    width: 100%;
+  }
+  .century_skills{
+    display: flex;
+    justify-content: space-between;
+  }
+  .century_skills-p{
+    text-align: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-bottom: 10vh;
+  }
+  .programming_tools img {
+    width: 40%;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 10vh;
+  }
+  .tech_skills{
+    text-align: center;
+  }
+  .tech_skills:nth-child(1){
+    font-size: 2rem;
+  }
+  .tech_skills:nth-child(3){
+    text-align: left;
+  }
+  #cambridge_p .tick-icon {
+    font-size: 2rem;
+    color: var(--color-btn);
+  }
+  .Enroll_now{
+    color: var(--color-primary);
+  }
+  @media (max-width:600px){
+    .programming_tools img {
+        width: 40%;
+        height: auto;
+        object-fit: contain;
+        margin-bottom: 5vh;
+      }
+      .century_skills{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+  }

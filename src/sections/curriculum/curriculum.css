@@ -1,0 +1,59 @@
+.section-tittle{
+    text-align: center;
+    position: relative;
+    /* text-decoration-line: underline;
+    text-decoration-color: var(--color-btn); */
+}
+.section-tittle:after{
+    content: '';
+    position: absolute;
+    display: block;
+    background-color:var(--color-btn);
+    height: 6px;
+    width: 6%;
+    left: 47vw;
+    bottom: -10px;
+
+}
+.circle {
+    display: inline;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    background: var(--color-primary);
+    padding: 0.8vw;
+  }
+
+.curriculums{
+    margin-top: 8vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+}
+.curriculum{
+    display: flex;
+    gap: 1rem;
+}
+.slider_courses{
+    margin-top: 10vh;
+}
+/* ====media queries================*/
+/* small screens */
+@media screen and (max-width:600px) {
+    .section-tittle{
+        font-size: 1.5rem;
+    }
+    .curriculums{
+        margin-top: 8vh;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 1rem;
+    }
+    .circle {
+        font-size: 1rem;
+    }
+    .slider_courses{
+        display: none;
+    }
+}

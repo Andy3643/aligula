@@ -1,0 +1,91 @@
+.cambridge_header {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+  }
+
+  .cambridge_header img {
+    margin-right: 1rem;
+    width: 80%;
+  }
+  
+  .cambridge_header div {
+    flex: 1;
+  }
+
+  /* curriculum guide */
+  .left-bnc_guide_desc{
+    width: 100%;
+  }
+  .bnc_guide_desc{
+    margin-top: 10vh;
+    display: flex;
+    gap: 4rem;
+
+  }
+
+
+  /* tables styler */
+  table, th, td {
+    width: 35vw;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 5px;
+    text-align: left;
+  }
+  th {
+    
+    background-color: var(--color-primary);
+    color: white;
+  }
+  td {
+    width: 30%;
+  }
+  
+  @media (max-width: 768px) {
+    .cambridge_header {
+      display: block;
+    }
+    
+    .cambridge_header img {
+      padding-bottom: 2rem;
+      width: 90%;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 600px) {
+  #cambridge_p{
+    
+    font-size: 17px!important;
+  }
+  .cambridge_header-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .cambridge_header img {
+    margin-right: 1rem;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+  .bnc_guide_desc{
+    display: flex;
+    flex-direction: column;
+  }
+  .left-bnc_guide_desc{
+    width: 90%;
+  }
+
+  table, th, td {
+    width: 90vw;}
+  
+}

@@ -1,0 +1,21 @@
+/* FloatingWhatsAppIcon.css */
+.whatsapp-icon-float {
+    position: fixed;
+    bottom: 7vh;
+    right: 7vw;
+    cursor: pointer;
+    z-index: 2147483647;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  }
+  
+  .inner-circle {
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

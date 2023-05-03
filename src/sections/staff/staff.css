@@ -1,0 +1,20 @@
+.teachers{
+    margin-top: 4vw;
+}
+
+.staff-title{
+    text-align: center;
+    position: relative;
+}
+
+.staff-title:after{
+    content: '';
+    position: absolute;
+    display: block;
+    background-color:var(--color-btn);
+    height: 6px;
+    width: 6%;
+    left: 47vw;
+    bottom: -10px;
+
+}
